@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "example-post-1",
+    "title": "A Cozy Welcome \u2014 Example Post",
+    "date": "2025-01-01",
+    "excerpt": "Welcome to the warm-light starter blog. This is an example post.",
+    "reading_time": "2 min"
+  },
+  {
+    "slug": "example-post-2",
+    "title": "Writing with Warmth \u2014 Second Example",
+    "date": "2025-02-14",
+    "excerpt": "Another short teaser for the second post. Replace with your own content.",
+    "reading_time": "3 min"
+  }
+]
