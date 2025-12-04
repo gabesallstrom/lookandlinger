@@ -11,7 +11,7 @@ function renderList(containerEl, posts){
   for(const p of posts){
     const el = document.createElement('article');
     el.className = 'post-item';
-    el.innerHTML = `<h2><a href="post.html?post=${encodeURIComponent(p.slug)}">${p.title}</a></h2>
+    el.innerHTML = `<h2><a href="post.html?slug=${encodeURIComponent(p.slug)}">${p.title}</a></h2>
       <p class="post-meta">${p.date} • ${p.reading_time}</p>
       <p>${p.excerpt}</p>`;
     containerEl.appendChild(el);
