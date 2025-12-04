@@ -46,6 +46,7 @@ function simpleMarkdownToHTML(md){
 async function renderPostFromSlug(slug){
   try{
     const mdPath = `posts/${slug}.md`;
+    console.log(mdPath);
     const res = await fetch(mdPath);
     if(!res.ok) throw new Error('Post not found');
     const md = await res.text();
