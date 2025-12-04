@@ -88,7 +88,7 @@ async function init(){
   // If on single post page
   if(document.getElementById('post-content')){
     const params = new URLSearchParams(window.location.search);
-    const slug = params.get('slug');
+    const slug = params.get('post');
     if(slug){
       renderPostFromSlug(slug);
     }else{
